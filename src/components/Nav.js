@@ -4,6 +4,8 @@ import { Link } from 'gatsby'
 import { Menu, X } from 'react-feather'
 import Logo from './Logo'
 
+import { FaTwitter,FaMedium,FaGithub,FaMeetup } from "react-icons/fa";
+
 import './Nav.css'
 
 export class Navigation extends Component {
@@ -71,8 +73,8 @@ export class Navigation extends Component {
             <Logo />
           </Link>
           <div className="Nav--Links">
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/components/">Components</NavLink>
+            <NavLink to="/">Data For Good</NavLink>
+            {/* <NavLink to="/components/">Components</NavLink> */}
             <div
               className={`Nav--Group ${
                 this.state.activeSubNav === 'posts' ? 'active' : ''
@@ -92,7 +94,7 @@ export class Navigation extends Component {
                 aria-label="Navigation"
                 role="button"
               >
-                Blog
+                Projets
                 <div className="Nav--GroupLinks">
                   <NavLink to="/blog/" className="Nav--GroupLink">
                     All Posts
@@ -109,8 +111,15 @@ export class Navigation extends Component {
                 </div>
               </span>
             </div>
-            <NavLink to="/default/">Default</NavLink>
+            <NavLink to="/components/">Formations</NavLink>
+            <NavLink to="/components/">Articles</NavLink>
+            <NavLink to="/default/">FAQ</NavLink>
             <NavLink to="/contact/">Contact</NavLink>
+            <div class="fill-remaining-space"></div>
+            <a className="social-link" href="https://github.com/dataforgoodfr" target="_blank" rel="noreferrer" aria-label="Github"><FaGithub/></a>
+            <a className="social-link" href="https://medium.com/@DataForGood_FR" target="_blank" rel="noreferrer" aria-label="Medium"><FaMedium/></a>
+            <a className="social-link" href="https://twitter.com/dataforgood_fr?lang=fr" target="_blank" rel="noreferrer" aria-label="Twitter"><FaTwitter/></a>
+            <a className="social-link" href="https://www.meetup.com/Data-for-Good-FR/" target="_blank" rel="noreferrer" aria-label="Meetup"><FaMeetup/></a>
           </div>
           <button
             className="Button-blank Nav--MenuButton"

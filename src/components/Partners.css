@@ -1,0 +1,20 @@
+
+.partners-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
+  
+  }
+  
+  
+  .partners-div{
+    padding:2rem;
+    margin:0rem;
+    width:200px;
+  }
+  
+  .partners-img{
+    max-width:100%;
+    max-height:150px;
+  }

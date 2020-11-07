@@ -1,0 +1,41 @@
+[
+    {
+        "name":"Lou Welgryn",
+        "image_url":"/images/team/lou2.jpg",
+        "role":"Présidente",
+        "linkedin":"https://www.linkedin.com/in/lou-welgryn-460434b0/"
+    },
+    {
+        "name":"Lucile Richie",
+        "image_url":"/images/team/lucile2.jpg",
+        "role":"Coordinatrice",
+        "linkedin":"https://www.linkedin.com/in/lucileritchie/"
+  
+    },
+    {
+        "name":"Léo Barbier",
+        "role":"Coordinateur",
+        "image_url":"/images/team/léo.png",
+        "linkedin":"https://www.linkedin.com/in/l%C3%A9o-barbier-506916a3/"
+    },
+    {
+        "name":"Mickael Fine",
+        "role":"Coordinateur",
+        "image_url":"/images/team/mickael2.jpg",
+        "linkedin":"https://www.linkedin.com/in/mickaelfine/"
+    },
+    {
+        "name":"Théo Alves Da Costa",
+        "role":"Coordinateur",
+        "image_url":"/images/team/théo.jfif",
+        "linkedin":"https://www.linkedin.com/in/th%C3%A9o-alves-da-costa-09397a82/",
+        "github":"https://github.com/TheoLvs",
+        "mail":"mailto:theo@dataforgood.fr"
+    },
+    {
+        "name":"Benjamin Rouif",
+        "role":"Coordinateur",
+        "image_url":"/images/team/benjamin.jfif",
+        "linkedin":"https://www.linkedin.com/in/brouif/"
+    }
+  ]

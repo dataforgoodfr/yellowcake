@@ -20,12 +20,13 @@
   flex-direction: row;
 }
 
+
 .Nav--Links > * + * {
   margin-left: 1rem;
 }
 
 .Nav .Logo {
-  margin-right: 3rem;
+  margin-right: 1rem;
   position: relative;
 }
 
@@ -201,4 +202,14 @@
   from {
     opacity: 0;
   }
+}
+
+
+.social-link{
+  color:black;
+  margin-right:1rem;
+}
+
+.fill-remaining-space{
+  flex:auto;
 }

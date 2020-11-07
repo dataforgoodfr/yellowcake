@@ -1,8 +1,9 @@
 const postcssPresetEnv = require('postcss-preset-env')
 
 module.exports = {
+  pathPrefix: "/yellowcake",
   siteMetadata: {
-    title: 'Yellowcake',
+    title: 'Data For Good',
     siteUrl: 'https://yellowcake.netlify.com'
   },
   plugins: [
@@ -44,11 +45,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'yellowcake',
-        short_name: 'yellowcake',
+        name: 'dataforgood',
+        short_name: 'dataforgood',
         start_url: '/',
-        background_color: '#00C2BD',
-        theme_color: '#00C2BD',
+        background_color: '#fa826f',
+        theme_color: '#fa826f',
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: 'standalone',
