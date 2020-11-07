@@ -58,7 +58,7 @@ export class Navigation extends Component {
           {children}
         </Link>
       )
-
+    console.log(subNav);
     return (
       <nav className={`Nav ${active ? 'Nav-active' : ''}`}>
         <div className="Nav--Container container">
@@ -96,8 +96,8 @@ export class Navigation extends Component {
               >
                 Projets
                 <div className="Nav--GroupLinks">
-                  <NavLink to="/blog/" className="Nav--GroupLink">
-                    All Posts
+                  <NavLink to="/projects/" className="Nav--GroupLink">
+                    Tous les projets
                   </NavLink>
                   {subNav.posts.map((link, index) => (
                     <NavLink
@@ -111,9 +111,9 @@ export class Navigation extends Component {
                 </div>
               </span>
             </div>
-            <NavLink to="/components/">Formations</NavLink>
-            <NavLink to="/components/">Articles</NavLink>
-            <NavLink to="/default/">FAQ</NavLink>
+            <NavLink to="/articles/">Articles</NavLink>
+            <NavLink to="/formations/">Formations</NavLink>
+            <NavLink to="/faq/">FAQ</NavLink>
             <NavLink to="/contact/">Contact</NavLink>
             <div class="fill-remaining-space"></div>
             <a className="social-link" href="https://github.com/dataforgoodfr" target="_blank" rel="noreferrer" aria-label="Github"><FaGithub/></a>
