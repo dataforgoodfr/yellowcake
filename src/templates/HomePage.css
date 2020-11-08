@@ -15,3 +15,23 @@
 .light-coral-background{
     background-color:#fef2f0;
 }
+
+
+.button-join{
+    padding:1rem;
+    background-color: var(--primary);
+    border:none;
+    margin:0.5rem;
+    transition: all 0.2s ease 0s;
+}
+
+.button-join > a{
+    color:white;
+    text-decoration: none
+}
+
+.button-join:hover{
+    background: #dd7463;
+    transition: all 0.2s ease 0s;
+
+}

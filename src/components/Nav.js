@@ -111,11 +111,11 @@ export class Navigation extends Component {
                 </div>
               </span>
             </div>
-            <NavLink to="/articles/">Articles</NavLink>
+            <NavLink to="/perspectives/">Perspectives</NavLink>
             <NavLink to="/formations/">Formations</NavLink>
-            <NavLink to="/faq/">FAQ</NavLink>
-            <NavLink to="/contact/">Contact</NavLink>
-            <div class="fill-remaining-space"></div>
+            <NavLink to="/join/">Nous rejoindre</NavLink>
+            <NavLink to="/propose/">Proposer un projet</NavLink>
+            <div className="fill-remaining-space"></div>
             <a className="social-link" href="https://github.com/dataforgoodfr" target="_blank" rel="noreferrer" aria-label="Github"><FaGithub/></a>
             <a className="social-link" href="https://medium.com/@DataForGood_FR" target="_blank" rel="noreferrer" aria-label="Medium"><FaMedium/></a>
             <a className="social-link" href="https://twitter.com/dataforgood_fr?lang=fr" target="_blank" rel="noreferrer" aria-label="Twitter"><FaTwitter/></a>
