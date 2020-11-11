@@ -2,7 +2,7 @@
 template: EmptyPage
 slug: 'propose'
 title: Proposer un projet
-featuredImage: ""
+featuredImage: "../images/propose.jfif"
 subtitle: "Vous avez une idée de projet pour mettre la Tech, la Data Science ou l'IA au service de la résolution d'enjeux d'intérêt général ?"
 meta:
   description: Proposer un projet.

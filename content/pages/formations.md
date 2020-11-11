@@ -1,12 +1,16 @@
 ---
 template: EmptyPage
 slug: 'formations'
-title: Contacter Data For Good
+title: Les formations Data For Good
 featuredImage: ''
-subtitle: " Retrouvez nos derniers articles et points de vue"
+subtitle: ""
 meta:
   description: This is a meta description.
   title: Data For Good
 ---
 
-# Coucou
+# Formations pour les associations
+> Nous sommes en train de créer 
+
+
+# Formation pour les bénévoles

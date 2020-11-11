@@ -112,7 +112,7 @@ export class Navigation extends Component {
               </span>
             </div>
             <NavLink to="/perspectives/">Perspectives</NavLink>
-            <NavLink to="/formations/">Formations</NavLink>
+            {/* <NavLink to="/formations/">Formations</NavLink> */}
             <NavLink to="/join/">Nous rejoindre</NavLink>
             <NavLink to="/propose/">Proposer un projet</NavLink>
             <div className="fill-remaining-space"></div>

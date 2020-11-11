@@ -1,8 +1,8 @@
 ---
 template: EmptyPage
 slug: 'perspectives'
-title: Nos perspectives
-featuredImage: ""
+title: Perspectives
+featuredImage: "../images/reuben2.jpg"
 subtitle: " Retrouvez nos derniers articles et points de vue"
 meta:
   description: This is a meta description.

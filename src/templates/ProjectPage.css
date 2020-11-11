@@ -1,0 +1,36 @@
+.project-container{
+    display:flex;
+  }
+  
+.project-left{
+    width:400px;
+    background-color:#fef2f0;
+    padding:3rem;
+}
+
+.project-right{
+    padding:3rem;
+}
+.project-img{
+    width:100%;
+}
+
+.project-logo-container{
+    text-align:center;
+    margin:2rem;
+}
+
+.project-logo{
+    mix-blend-mode: multiply;
+    width:150px;
+}
+
+
+.project-important-links{
+    list-style: none;
+    padding-left:2rem;
+}
+
+.project-important-links > li > a {
+    text-decoration: none;
+}

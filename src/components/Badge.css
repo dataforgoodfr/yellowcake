@@ -1,0 +1,24 @@
+
+.badge{
+    padding:0.5rem 2rem;
+    margin-right:1rem;
+    border-radius:20px;
+    color:white;
+    text-decoration:none;
+}
+
+.badges-container{
+    width:100%;
+    align-content: center;
+    justify-content: center;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.badge-container{
+    margin-bottom:1.5rem;
+}
+
+.small-badge{
+    font-size:14px;
+}
