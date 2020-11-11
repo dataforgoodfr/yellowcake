@@ -46,7 +46,6 @@ export const ProjectPageTemplate = ({ title, subtitle, featuredImage, body,logo,
                 <p>
                     {categories.map(el => <Badge name={el.category} color="#fa826f"/>)}
                 </p>
-                <Content source={excerpt} />
                 <Content source={body} />
                 <h1>Equipe</h1>
                 <ul>

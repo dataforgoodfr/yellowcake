@@ -3,7 +3,7 @@
   }
   
 .project-left{
-    width:400px;
+    max-width:400px;
     background-color:#fef2f0;
     padding:3rem;
 }

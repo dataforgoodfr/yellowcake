@@ -5,7 +5,7 @@ status: Published
 date: '2018-05-25'
 featuredImage: 'https://ichef.bbci.co.uk/news/1024/cpsprodpb/67CF/production/_108857562_mediaitem108857561.jpg'
 excerpt: >-
-  Pyronear a créé au cours des différentes saisons de Data For Good un prototype pour détecter les départs d'incendie dans les forêts
+  Data For Good & Ceebios
 meta:
   description: Ceebios
   title: Ceebios
@@ -33,3 +33,7 @@ team:
     role: Data Analyst
 
 ---
+
+This is placeholder text that our web designers put here to make sure words appear properly on your website. This text is going to be replaced once the website is completed. You are currently reading text that is written in English, not any other language.
+
+Be careful not to waste too much time reading placeholder text! This text isn’t going to remain here because it doesn't pertain to the website. This paragraph has been copied from a program that automatically generates paragraphs like this. It is useful for web designers to use placeholder text so they can easily see what different fonts look like on a realistic paragraph.
