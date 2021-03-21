@@ -58,7 +58,7 @@ export class Navigation extends Component {
           {children}
         </Link>
       )
-    console.log(subNav);
+    console.log("Coucou",subNav);
     return (
       <nav className={`Nav ${active ? 'Nav-active' : ''}`}>
         <div className="Nav--Container container">
@@ -73,7 +73,7 @@ export class Navigation extends Component {
             <Logo />
           </Link>
           <div className="Nav--Links">
-            <NavLink to="/">Data For Good</NavLink>
+            <NavLink to="/" className="navbar-title-dfg">Data For Good</NavLink>
             {/* <NavLink to="/components/">Components</NavLink> */}
             <div
               className={`Nav--Group ${
@@ -111,8 +111,9 @@ export class Navigation extends Component {
                 </div>
               </span>
             </div>
-            <NavLink to="/perspectives/">Perspectives</NavLink>
             {/* <NavLink to="/formations/">Formations</NavLink> */}
+            {/* <NavLink to="/events/">Evènements</NavLink> */}
+            {/* <NavLink to="/blog/">Blog</NavLink> */}
             <NavLink to="/join/">Nous rejoindre</NavLink>
             <NavLink to="/propose/">Proposer un projet</NavLink>
             <div className="fill-remaining-space"></div>

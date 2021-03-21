@@ -6,6 +6,9 @@
   border-bottom: 1px solid var(--lightGrey);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.025);
 }
+.navbar-title-dfg{
+  color:var(--primary) !important;
+}
 
 .Nav--Container {
   display: flex;

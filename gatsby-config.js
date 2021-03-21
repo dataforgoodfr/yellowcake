@@ -53,7 +53,7 @@ module.exports = {
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: 'standalone',
-        icon: `${__dirname}/static/images/logo-dfg.png` // This path is relative to the root of the site.
+        icon: `${__dirname}/static/images/logo-dfg-new.png` // This path is relative to the root of the site.
       }
     },
 
@@ -127,14 +127,14 @@ module.exports = {
       }
     },
     'gatsby-plugin-sitemap',
-    {
-      resolve: 'gatsby-plugin-netlify-cms',
-      options: {
-        modulePath: `${__dirname}/src/cms/cms.js`,
-        stylesPath: `${__dirname}/src/cms/admin.css`,
-        enableIdentityWidget: true
-      }
-    },
-    'gatsby-plugin-netlify' // make sure to keep it last in the array
+    // {
+    //   resolve: 'gatsby-plugin-netlify-cms',
+    //   options: {
+    //     modulePath: `${__dirname}/src/cms/cms.js`,
+    //     stylesPath: `${__dirname}/src/cms/admin.css`,
+    //     enableIdentityWidget: true
+    //   }
+    // },
+    // 'gatsby-plugin-netlify' // make sure to keep it last in the array
   ]
 }

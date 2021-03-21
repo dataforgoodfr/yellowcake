@@ -27,10 +27,11 @@ export const byDate = posts => {
  * @param {contentType} string
  */
 export const byCategory = (posts, title, contentType) => {
-  const isCategory = contentType === 'topics'
+  const isCategory = contentType === 'seasons'
   const byCategory = post =>
-    post.categories &&
-    post.categories.filter(cat => cat.category === title).length
+    post.season &&
+    post.season.filter(cat => cat.name === title).length
+  console.log(posts,title,contentType,byCategory)
   return isCategory ? posts.filter(byCategory) : posts
 }
 
@@ -152,14 +153,17 @@ export const pageQuery = graphql`
             categories {
               category
             }
+            season{
+              name
+            }
             featuredImage
           }
         }
       }
     }
     postCategories: allMarkdownRemark(
-      filter: { fields: { contentType: { eq: "topics" } } }
-      sort: { order: ASC, fields: [frontmatter___title] }
+      filter: { fields: { contentType: { eq: "seasons" } } }
+      sort: { order: DESC, fields: [frontmatter___title] }
     ) {
       edges {
         node {

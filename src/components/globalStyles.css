@@ -1,5 +1,5 @@
 :root {
-  --primary: #fa826f;
+  --primary: #24b0b7;
   --secondary: #000;
   --lightGrey: whitesmoke;
   --midGrey: #cacaca;
@@ -9,6 +9,8 @@
   --font-system: system-ui; /* postcssPresetEnv */
   --borderRadius: 3px;
 }
+
+
 
 ::-webkit-scrollbar {
   width: 0.4rem;
@@ -34,7 +36,8 @@ html {
 }
 
 body {
-  font-family: var(--font-system);
+  /* font-family: var(--font-system); */
+  font-family: "Inter";
   min-height: 100%;
   position: relative;
   background: white;

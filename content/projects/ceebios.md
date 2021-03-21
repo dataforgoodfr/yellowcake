@@ -12,7 +12,7 @@ meta:
 categories:
   - category: Biodiversité
 season:
-  - name: Saison 9
+  - name: Saison 8
   - name: Saison 6
 tags:
   - name: NLP

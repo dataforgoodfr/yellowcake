@@ -2,9 +2,9 @@
 template: BlogIndex
 slug: blog
 title: Blog Page
-featuredImage: 'https://ucarecdn.com/b6254577-26bf-4b79-aa9b-f3793e2aebdc/'
-subtitle: This is the blog page subtitle.
+featuredImage: "../images/reuben2.jpg"
+subtitle: " Retrouvez nos derniers articles et points de vue"
 meta:
   description: This is a meta description.
-  title: Blog Page
+  title: Data For Good
 ---

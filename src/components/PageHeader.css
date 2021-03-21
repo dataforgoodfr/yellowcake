@@ -1,5 +1,6 @@
 .PageHeader {
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
+  background: linear-gradient(45deg, rgba(36,176,183,1) 0%, rgba(249,181,43,1) 80%, rgba(185,226,26,1) 100%);
   color: white;
   padding: 3rem 0;
 }

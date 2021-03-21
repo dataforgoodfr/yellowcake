@@ -11,6 +11,7 @@ export const SinglePostTemplate = ({
   title,
   date,
   body,
+  author,
   nextPostURL,
   prevPostURL,
   categories = []
@@ -21,11 +22,15 @@ export const SinglePostTemplate = ({
       itemScope
       itemType="http://schema.org/BlogPosting"
     >
-      <div className="container skinny">
+      <div className="container">
         <Link className="SinglePost--BackButton" to="/blog/">
           <ChevronLeft /> BACK
         </Link>
         <div className="SinglePost--Content relative">
+          <div className="SinglePost--Meta">
+            {/* <img src={author.img} className="post-author-img" alt="Author"/> */}
+            Article écrit par <a href={author.url}>{author.name}</a>
+          </div>
           <div className="SinglePost--Meta">
             {date && (
               <time

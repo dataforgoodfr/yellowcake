@@ -1,21 +1,36 @@
 ---
-template: SinglePost
-title: Pyronear
+template: ProjectPage
+title: Geowatch Labs
 status: Published
 date: '2018-05-25'
-featuredImage: 'https://ucarecdn.com/bd5d1edc-73be-488a-9d50-8ec28f5ab6a9/'
+featuredImage: 'https://ichef.bbci.co.uk/news/1024/cpsprodpb/67CF/production/_108857562_mediaitem108857561.jpg'
 excerpt: >-
-  This is placeholder text that our web designers put here to make sure words
-  appear properly on your website. This text is going to be replaced once the
-  website is completed. You are currently reading text that is written in
-  English, not any other language.
+  Data For Good & Ceebios
 meta:
-  description: test meta description
-  title: test meta title
+  description: Geowatch Labs
+  title: Geowatch Labs
 categories:
-  - category: Environnement
+  - category: Biodiversité
 season:
-  - name: Saison 8
+  - name: Saison 9
+tags:
+  - name: NLP
+  - name: API
+  - name: coucou
+  - name: bonjour
+  - name: salut
+logo: https://www.fandebiomimetisme.com/wp-content/uploads/2019/03/logo-ceebios.jpg
+github: https://pyronear.org/
+website: https://pyronear.org/
+linkedin: ""
+team:
+  - name: Adrien Saint Sardos
+    role: Porteur de projet
+  - name: Théo Alves Da Costa
+    role: Data Scientist
+  - name: Benjamin Rouif
+    role: Data Analyst
+
 ---
 
 This is placeholder text that our web designers put here to make sure words appear properly on your website. This text is going to be replaced once the website is completed. You are currently reading text that is written in English, not any other language.
